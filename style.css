@@ -1,0 +1,491 @@
+body{
+    background-color: rgb(232, 236, 240);
+}
+
+.texts_body{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.texts_body_small_intro{
+    font-size: 16px;
+    text-align: left;
+    color: rgb(54, 54, 54);
+    -webkit-text-stroke: 0.1px rgb(54, 54, 54);
+
+}
+.get_on_various_means{
+    width: 140px;
+    height: auto;
+    background-color: black;
+    margin: 32px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+.Piggyvest_2024_report{
+    background-color: rgb(31, 127, 236);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 27px;
+    padding-left: 27px;
+    font-weight: normal;
+    color: white;
+    border-radius: 24px;
+    font-weight: bold;
+}
+
+.col-4{ 
+    margin-top: 20px;
+    margin-left: 1em;
+}
+.one_image{
+    margin-left: 100px;
+    position: absolute;
+    /* z-index: 80; */
+    width: 500px;
+    height: 510px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 32px;
+    border: 18px solid white;
+    animation: playingstarts .79s ease-in-out infinite alternate;
+
+}
+@keyframes playingstarts {
+    to{margin-top: 0.2em;}
+}
+
+/* descriptions  */
+.smallboxes{
+    background-color: white;
+    font-size: 11px;
+    font-weight: normal;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 5px;
+    border-radius: 7px;
+    width: 220px;
+    position: absolute;
+    /* z-index: 80; */
+    margin-top: 60px;
+}
+.col-5{
+    animation: ff .79s ease-in-out infinite alternate;
+}
+@keyframes ff {
+    to{margin-top: 0.2em;}
+}
+
+.locked_little_image{
+    border-radius: 30px;
+    background-color: aliceblue;
+    width: 30px;
+    height: auto;
+    margin-top: 76px;
+    /* z-index: 80; */
+    position: absolute;
+    margin-left: 180px;
+}
+.locked_little_flex_image{
+    background-color: aliceblue;
+    width: auto;
+    height: 34px;
+    margin-top: 195px;
+    /* z-index: 80; */
+    position: absolute;
+    margin-left: 167px;
+    border-radius: 0.5em;
+}
+.curved-arrow{
+    margin-bottom: 22px;
+    width: 30px;
+    height: auto;
+}
+/* descriptions  ends here */
+
+
+
+/* webpage informations  */
+/* FIRST SECTION SEGMENTS  */
+.heading-texts{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(7, 7, 71);
+    padding-top: 20px;
+    height: 353px;
+    width: 329px;
+    position: absolute;  
+    /* z-index: 80;   */
+}
+.heading-texts-infos{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 4.5em;
+}
+
+.text-paddingly{
+    margin-inline: 12px;
+    position: relative;  
+    /* z-index: 80;   */
+    padding-left: 29px;
+    width: 353px;
+    height: auto;
+    background-color: white;
+    border-radius: 19px;
+    color: black;
+    transition: all .1s ease-in-out;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.text-paddingly:hover{
+    background-color: rgb(7, 7, 71);
+    color: white;
+}
+.heading-texts:hover{
+    color: white;
+}
+.heading-texts-infos-last{
+    font-size: 14px;
+}
+
+/* SECOND COLUMN SEGEMENTS  */
+.text-paddingly-second-column{
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+    margin-inline: 12px;
+    position: relative;  
+    /* z-index: 80;   */
+    padding-left: 29px;
+    width: 353px;
+    height: auto;
+    background-color: white;
+    border-radius: 19px;
+    transition: all .1s ease-in-out;
+    color: black;
+}
+.text-paddingly-second-column:hover{
+    background: rgb(7, 88, 180);
+    color: white;
+}
+.heading-texts-second-column{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(7, 88, 180);
+    padding-top: 20px;
+    height: 353px;
+    width: 329px;
+    position: absolute;  
+    /* z-index: 80;   */
+}
+.heading-texts-second-column:hover{
+    color: white;
+}
+.heading-texts-infos-second-column{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 4.5em;
+}
+.heading-texts-infos-last-second-column{
+    font-size: 14px;
+}
+/* SECOND COLUMN  */
+
+
+
+
+/* THIRD COLUMN SEGEMENTS  */
+.text-paddingly-third-column{
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+    margin-inline: 12px;
+    position: relative;  
+    /* z-index: 80;   */
+    padding-left: 29px;
+    width: 353px;
+    transition: all .1s ease-in-out;
+    height: auto;
+    background-color: white;
+    border-radius: 19px;
+    color: black;
+}
+.text-paddingly-third-column:hover{
+    background-color: rgb(29, 168, 16);
+    color: white;
+}
+.heading-texts-third-column{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(29, 168, 16);
+    padding-top: 20px;
+    height: 353px;
+    width: 329px;
+    position: absolute;  
+    /* z-index: 80;   */
+}
+.heading-texts-third-column:hover{
+    color: white;
+}
+.heading-texts-infos-third-column{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 4.5em;
+}
+.heading-texts-infos-last-third-column{
+    font-size: 14px;
+}
+/* THIRD COLUMN  */
+
+
+/* FOURTH COLUMN SEGEMENTS  */
+.text-paddingly-fourth-column{
+    margin-inline: 12px;
+    position: relative;  
+    /* z-index: 80;   */
+    padding-left: 29px;
+    transition: all .1s ease-in-out;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+    width: 353px;
+    height: auto;
+    background-color: white;
+    border-radius: 19px;
+    color: black;
+}
+.text-paddingly-fourth-column:hover{
+    background-color: rgb(218, 20, 80);
+    color: white;
+}
+.heading-texts-fourth-column{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(218, 20, 80);
+    padding-top: 20px;
+    height: 353px;
+    width: 329px;
+    position: absolute;  
+    /* z-index: 80;   */
+}
+.heading-texts-fourth-column:hover{
+    color: white;
+}
+.heading-texts-infos-fourth-column{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 4.5em;
+}
+.heading-texts-infos-last-fourth-column{
+    font-size: 14px;
+}
+/* FOURTH COLUMN  */
+
+
+/* FIFTH COLUMN SEGEMENTS  */
+.text-paddingly-fifth-column{
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+    margin-inline: 12px;
+    position: relative;  
+    /* z-index: 80;   */
+    padding-left: 29px;
+    transition: all .1s ease-in-out;
+    width: 353px;
+    height: auto;
+    background-color: white;
+    border-radius: 19px;
+    color: black;
+}
+.text-paddingly-fifth-column:hover{
+    background-color: rgb(34, 33, 34);
+    color: white;
+}
+.heading-texts-fifth-column{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(34, 33, 34);
+    padding-top: 20px;
+    height: 353px;
+    width: 329px;
+    position: absolute;  
+    /* z-index: 80;   */
+}
+.heading-texts-fifth-column:hover{
+    color: white;
+}
+.heading-texts-infos-fifth-column{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 4.5em;
+}
+.heading-texts-infos-last-fifth-column{
+    font-size: 14px;
+}
+/* FOURTH COLUMN  */
+
+
+
+/* FIFTH COLUMN SEGEMENTS  */
+.text-paddingly-sixth-column{
+    margin-inline: 12px;
+    position: relative;  
+    /* z-index: 80;   */
+    padding-left: 29px;
+    transition: all .1s ease-in-out;
+    width: 353px;
+    height: auto;
+    background-color: white;
+    border-radius: 19px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+.text-paddingly-sixth-column:hover{
+    background-color: rgb(240, 142, 15);
+    color: white;
+}
+.heading-texts-sixth-column{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(240, 142, 15);
+    padding-top: 20px;
+    height: 353px;
+    width: 329px;
+    position: absolute;  
+    /* z-index: 80;   */
+}
+.heading-texts-sixth-column:hover{
+    color: white;
+}
+.heading-texts-infos-sixth-column{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 4.5em;
+}
+.heading-texts-infos-last-sixth-column{
+    font-size: 14px;
+}
+/* SIXTH COLUMN  */
+
+
+/* webpage informations sects ends here*/
+
+
+
+
+
+/* your secuirty is our priority  */
+.text-for-security{
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+.small-text-for-security{
+    font-size: 18px;
+    font-weight: normal;
+}
+.smaller-text-for-security{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.lock-image-for-security{
+    width: 110px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+/* your security is our priority */
+
+
+.building-up-savings-texts{
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+}
+.building-up-savings-smaller-texts{
+    font-size: 23px;
+}
+
+
+
+
+/* DIVERSING SAVINGS  */
+.diversing-up-savings-texts{
+    padding-top: 53px;
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.diversing-up-savings-smaller-texts{
+    text-align: center;
+    font-size: 22px;
+}
+
+/* the-purples  */
+.the-purples{
+    background-color: rgb(111, 23, 226);
+    margin-left: 150px;
+    display: flex;
+    padding-right: 3em;
+    padding-left: 3em;
+    border-radius: 28px;
+
+    height: 453px;
+    width: 1027px;
+}
+
+.diversing-up-savings-texts-the-purples{
+    padding-top: 56px;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+.the-purples-smaller-texts{
+    font-size: 18px;
+    color: rgb(250, 247, 247);
+    text-align: left;
+    padding-top: 12px;
+}
+
+
+.learning-more-about0investments{
+    text-align: left;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.learning-more-about0investments:hover{
+    color: white;
+    text-decoration: none;
+}
+.android-image-for-purple-backgrounds{
+    width: 430px;
+    height: 453px;
+    margin-left: 12em;
+}
+.arrow-to-the-right{
+    font-weight: normal;
+    font-size: 30px;
+}
+/* the-purples  ends*/
+/* DIVERSING SAVINGS  */
+
